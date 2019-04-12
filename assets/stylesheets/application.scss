@@ -1,0 +1,19 @@
+body {
+  font-family: Helvetica;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.giflist{
+  height: 100%;
+  width:20vw;
+  overflow-y: scroll;
+  img {
+    width:100%
+  }
+}
